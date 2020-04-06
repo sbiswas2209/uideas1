@@ -1,14 +1,60 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
+  <ion-buttons start>
+    <button ion-button class="button1" icon-only color = "dark" clear><ion-icon name = "md-arrow-dropleft"></ion-icon></button>
+  </ion-buttons>
+  <ion-buttons end>
+    <button ion-button class = "button2" end icon-only color = "dark" clear><ion-icon name = "md-switch"></ion-icon></button>
+  </ion-buttons>
+  <p>Smartphones</p>
+  <h1>Products<b></b></h1>
+  <ion-buttons end>
+    <button ion-button class="button5" color ="dark" clear>View More</button>
+  </ion-buttons>
+ <div class = "search">
+  <ion-searchbar placeholder="Search more products"></ion-searchbar>
+ </div>
+  <ion-grid>
+    <ion-row size-md="6">
+      <ion-col size-md="12">
+        <button ion-button class = "button3">Android</button>
+        <button ion-button class = "button3">iOS</button>
+        <button ion-button class = "button3">Blackberry</button>
+        <button ion-button class = "button3">Other</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+ <ion-slides pager="false">
+   <ion-slide>
+    
+    <ion-card color="primary">
+      <img src = "../../../resources/imgs/download.png">
+      <ion-card-content>
+        <p>
+          Apple
+        </p>
+        <h1>
+          iPhone
+        </h1>
+        <p>
+          $1099
+        </p>
+      </ion-card-content>
+    </ion-card>
+   </ion-slide>
+   <ion-slide>
+    <h1>
+      Slide 2
+    </h1>
+  </ion-slide>
+  
+ <ion-slide>
+  <h1>
+    Slide 3
+  </h1>
+</ion-slide>
+</ion-slides>
+<button ion-button class="button4" block>Click to know more</button>
 </ion-content>

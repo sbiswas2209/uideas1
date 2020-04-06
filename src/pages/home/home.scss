@@ -1,3 +1,35 @@
 page-home {
-
+    .button2{
+        bottom: 43px;
+    }
+    p{
+        right:30px;
+        
+    }
+    .button3
+    {
+        bottom:25px;
+        font-size: 8px;
+        width:55px;
+        height:20px;
+        border-radius: 5px;
+    }
+    ion-searchbar{
+        bottom:40px;
+    }
+    .button4{
+        bottom:180px;
+        border-radius: 50px;
+    }
+    .button5{
+        font-size: 11px;
+        bottom:42px;
+    }
+    
+    ion-card{
+        border-radius: 35%;
+    }
+    ion-slide{
+        border-radius:15px;
+    }
 }
